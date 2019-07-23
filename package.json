@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "tsc",
+    "build:bundle": "tsc -p tsconfig.bundle.json"
   },
   "dependencies": {
     "core-js": "^2.6.5",

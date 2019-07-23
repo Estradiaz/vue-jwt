@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outFile": "dist/vue-jwt.js",
     "sourceRoot": "jwt",
     "target": "esnext",
-    "module": "esnext",
+    "module": "system",
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
