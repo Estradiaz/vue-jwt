@@ -14,3 +14,8 @@
         ...options,
         jwt
       })
+
+### method
+      $jwt.retrieve() : void // is registered in window.addEventListener('popstate', ...)
+### get
+      $jwt.isLoggedIn : boolean
